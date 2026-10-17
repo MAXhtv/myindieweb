@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+      <link rel="shortcut icon" type="imagex/png" href="./assets/naofode.ico">
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <style>
+            body {
+                background-color: black;
+            }
+            h2{
+                color:rgb(151, 163, 174)
+            }
+            p{
+                padding: 10px;
+                color:aliceblue
+            }
+            div{
+                color:aliceblue
+            }
+            a{
+                color: darkcyan;
+            }
+            .bodyai{
+               display: flex; 
+            }
+            .ror{
+               display: flex; 
+            }
+            .kurt{
+                display: flex;
+                justify-content: flex-end;
+                padding: 10px;
+            }
+            .cross{
+                height: 210px;
+                display: flex;
+                justify-content: flex-end;
+                padding: 10px;
+            }
+            #cross{
+                filter: invert(100%);
+            }
+            .gif{
+                padding: 10px;
+            }
+            #guitar{
+                display: flex;
+                justify-content: flex-end;
+                padding: 10px;
+            }
+            #song-name{
+                color: darkcyan;
+            }
+            #band-name{
+                color: darkcyan;
+            }
+        </style>
+        <title>My Indie Website</title>
+    </head>
+    <body>
+        <h2>Who is me? My name is Matt, i'm a intusiast of coding and i love music</h2>
+        <p>i love listen music, coding, sk8bording, gym and games</p>
+        <img src="assets/lain.gif" height="80px">
+        <div id="guitar">
+            <img src="assets/guitar.gif" height="200px">
+        </div>
+
+        <div>
+            <h2>Some Projects mine :D</h2>
+            <div>
+                <a href="https://maxhtv.github.io/BodyAI/">BodyAI</a>
+                <img src="assets/bodyai.png" height=450px class="bodyai" />
+            </div>
+            <div class="kurt">
+                <img src="assets/kurt.png" height="80px">
+            </div>
+            <div>
+                <a href="https://github.com/MAXhtv/Rorschach-Tool"> Rorschach-Tool<a>
+                <img src="assets/ror.jpg" height=450px class="ror"/>
+            </div>
+            <div class="cross">
+                <img src="assets/cross.png" id="cross">
+            </div>
+        </div>
+        <img src="assets/35615.gif" class="gif">
+        <div>
+            <p>Songs that i like, u should hear</p>
+          <audio id='audio'></audio>
+          <div id="song-name">Nome da musica</div>
+          <div id="band-name">nome da banda</div>
+          <div><i class="bi bi-heart"></i></div>
+        </div>
+        <div id = "button-container">
+            <button id="shuffle" class="button"><i class="bi bi-shuffle"></i></button>
+            <button id="previous" class="button button-navigate"><i class="bi bi-skip-start-fill"></i></button>
+            <button id="play" class="button button-biggest"><i class="bi bi-play-circle-fill"></i></button>
+            <button id="next" class="button button-navigate"><i class="bi bi-skip-end-fill"></i></button>
+            <button id="repeat" class="button"><i class="bi bi-repeat"></i></button>
+        </div>
+        <p id="human">Made totally by a human! No AI</p>
+        <script src="script.js"></script>
+    </body>
+</html>
